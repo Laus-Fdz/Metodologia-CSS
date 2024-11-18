@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: black;
+}
+
+.Header-Menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+.Header-Menu_Link {
+    text-decoration: underline solid 2pt #c6c6c6;
+    color: black;
+}
+
+.Section {
+    margin: 40px;
+}
+
+.Section-Text {
+    font-size: 1.2rem;
+}
+
+.Gallery {
+    padding: 40px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.Gallery-Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.Gallery-Item {
+    width: 100%;
+    height: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.Footer {
+    color: black;
+    padding: 40px;
+
+}
+
+.Footer-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer-Copy {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.Footer-SocialLinks {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer-SocialLink {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
