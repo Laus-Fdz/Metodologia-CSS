@@ -12,7 +12,7 @@
     color: black;
 }
 
-.Header-Menu {
+.Header-menu {
     display: flex;
     list-style: none;
     margin: 0;
@@ -20,16 +20,20 @@
     gap: 40px;
 }
 
-.Header-Menu_Link {
-    text-decoration: underline solid 2pt #c6c6c6;
+.Header-menu_Link {
+    text-decoration: none;
     color: black;
+}
+
+.isActive {
+    text-decoration: underline 2px solid gray;
 }
 
 .Section {
     margin: 40px;
 }
 
-.Section-Text {
+.Section-next {
     font-size: 1.2rem;
 }
 
@@ -39,7 +43,7 @@
     max-width: 100%;
 }
 
-.Gallery-Grid {
+.Gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -47,11 +51,27 @@
     margin: 0 auto;
 }
 
-.Gallery-Item {
+.Gallery-image {
     width: 100%;
     height: 200px;
     height: auto;
     object-fit: cover;
+}
+
+.Gallery-buttonSection {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.Gallery-button {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
 }
 
 .Footer {
@@ -60,18 +80,18 @@
 
 }
 
-.Footer-Content {
+.Footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Footer-Copy {
+.Footer-copy {
     font-size: 0.9rem;
     color: black;
 }
 
-.Footer-SocialLinks {
+.Footer-socialLinks {
     display: flex;
     gap: 40px;
     list-style: none;
@@ -79,7 +99,7 @@
     padding: 0;
 }
 
-.Footer-SocialLink {
+.Footer-socialLink {
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
