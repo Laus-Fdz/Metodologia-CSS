@@ -30,7 +30,7 @@ body {
 }
 
 .isActive {
-    text-decoration: underline 2px solid gray;
+    text-decoration: underline 2px solid rgb(225, 225, 225);
 }
 
 .Section {
@@ -42,6 +42,10 @@ body {
 }
 
 .Gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 40px;
     width: 100%;
     max-width: 100%;
@@ -62,11 +66,6 @@ body {
     object-fit: cover;
 }
 
-.Gallery-buttonSection {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0px 0px 0px;
-}
 
 .Gallery-button {
     padding: 10px;
@@ -76,12 +75,15 @@ body {
     justify-content: center;
     background-color: white;
     border: none;
+    cursor: pointer;
 }
+
 
 .Footer {
     color: black;
     padding: 40px;
-
+    border-top: 2px solid rgb(225, 225, 225);
+    margin: 40px;
 }
 
 .Footer-content {
